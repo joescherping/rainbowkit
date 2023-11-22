@@ -1,5 +1,11 @@
 # @rainbow-me/rainbowkit
 
+## 1.3.1
+
+### Patch Changes
+
+- dba51779: Added support for `arbitrumSepolia`, `baseSepolia`, `optimismSepolia`, `zoraSepolia` testnet chains
+
 ## 1.3.0
 
 ### Minor Changes
