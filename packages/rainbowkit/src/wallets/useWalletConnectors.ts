@@ -99,6 +99,7 @@ export function useWalletConnectors(): WalletConnector[] {
 
     const recent = recentWallets.includes(wallet);
 
+    console.log("wallet", wallet.name, wallet.installed, wallet.connector.ready);
     walletConnectors.push({
       ...wallet,
       // @ts-ignore - ignoring potential undefined return type
@@ -124,5 +125,7 @@ export function useWalletConnectors(): WalletConnector[] {
         : undefined,
     });
   });
+
+  console.log("here are the wallet connectors", walletConnectors)
   return walletConnectors;
 }
