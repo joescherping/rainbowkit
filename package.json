@@ -35,9 +35,12 @@
     "ci:example": "pnpm --filter @rainbow-me/rainbowkit* prepare && pnpm --filter example build",
     "ci:site": "pnpm --filter @rainbow-me/rainbowkit* prepare && pnpm --filter site build"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rainbow-me/rainbowkit.git"
+    "url": "git+https://https://github.com/joescherping/rainbowkit.git"
   },
   "license": "MIT",
   "devDependencies": {
